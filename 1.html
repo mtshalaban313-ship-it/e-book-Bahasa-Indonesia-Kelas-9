@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bab 1 - Hakikat Bahasa Indonesia dan Keterampilan Berbahasa | Buku Bahasa Indonesia Kelas 9</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: #f4f7fb;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* ========== HEADER & BREADCRUMB ========== */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            padding: 20px 40px;
+        }
+
+        header h1 {
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+
+        header h1 a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        header h1 a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .breadcrumb a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            margin: 0 8px;
+            opacity: 0.7;
+        }
+
+        /* ========== HERO BAB ========== */
+        .bab-hero {
+            background: linear-gradient(135deg, #2a5298 0%, #1e3c72 100%);
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .bab-hero .label {
+            display: inline-block;
+            background: #ffd700;
+            color: #1e3c72;
+            padding: 5px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+
+        .bab-hero h2 {
+            font-size: 2.3rem;
+            margin-bottom: 20px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .bab-hero p {
+            max-width: 800px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .bab-nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .bab-nav a {
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            border: 1px solid rgba(255, 215, 0, 0.3);
+        }
+
+        .bab-nav a:hover {
+            background: #ffd700;
+            color: #1e3c72;
+        }
+
+        /* ========== KONTEN UTAMA ========== */
+        .content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 25px;
+        }
+
+        .content article {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .content h3 {
+            color: #1e3c72;
+            font-size: 1.5rem;
+            margin: 35px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 3px solid #ffd700;
+        }
+
+        .content h3:first-child {
+            margin-top: 0;
+        }
+
+        .content h4 {
+            color: #2a5298;
+            font-size: 1.15rem;
+            margin: 20px 0 10px;
+        }
+
+        .content p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .content ul, .content ol {
+            margin: 15px 0 20px 25px;
+        }
+
+        .content li {
+            margin-bottom: 8px;
+        }
+
+        .content strong {
+            color: #1e3c72;
+        }
+
+        /* ========== KOTAK DEFINISI / KUTIPAN ========== */
+        .definisi {
+            background: #f4f7fb;
+            border-left: 5px solid #ffd700;
+            padding: 18px 22px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+            font-style: italic;
+        }
+
+        .definisi strong {
+            font-style: normal;
+            color: #1e3c72;
+        }
+
+        .info-box {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 25px 0;
+        }
+
+        .info-box h4 {
+            color: #ffd700;
+            margin-top: 0;
+        }
+
+        .info-box ul {
+            margin-left: 20px;
+        }
+
+        .info-box li {
+            margin-bottom: 8px;
+        }
+
+        /* ========== TABEL ========== */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        table th {
+            background: #1e3c72;
+            color: #fff;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        table tr:nth-child(even) {
+            background: #f9fafc;
+        }
+
+        table tr:hover {
+            background: #fff8dc;
+        }
+
+        /* ========== PENTING UJIAN ========== */
+        .poin-penting {
+            background: #fff8dc;
+            border: 2px dashed #ffd700;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+
+        .poin-penting h4 {
+            color: #1e3c72;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+
+        .poin-penting ul {
+            margin-left: 20px;
+        }
+
+        /* ========== NAVIGASI BAWAH ========== */
+        .bottom-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .bottom-nav a {
+            background: #1e3c72;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .bottom-nav a:hover {
+            background: #ffd700;
+            color: #1e3c72;
+        }
+
+        .bottom-nav a.primary {
+            background: #ffd700;
+            color: #1e3c72;
+        }
+
+        .bottom-nav a.primary:hover {
+            background: #1e3c72;
+            color: #ffd700;
+        }
+
+        /* ========== FOOTER ========== */
+        footer {
+            background: #0f1e3d;
+            color: #fff;
+            padding: 50px 20px 20px;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 30px;
+        }
+
+        .footer-content h4 {
+            color: #ffd700;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .footer-content p,
+        .footer-content a {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .footer-content a:hover {
+            color: #ffd700;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 30px;
+            padding-top: 20px;
+            font-size: 0.85rem;
+            opacity: 0.8;
+        }
+
+        /* ========== RESPONSIVE ========== */
+        @media (max-width: 768px) {
+            header {
+                padding: 15px 20px;
+            }
+
+            .bab-hero h2 {
+                font-size: 1.6rem;
+            }
+
+            .content article {
+                padding: 25px 20px;
+            }
+
+            .content h3 {
+                font-size: 1.25rem;
+            }
+
+            table {
+                font-size: 0.9rem;
+            }
+
+            table th, table td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========== HEADER & BREADCRUMB ========== -->
+    <header>
+        <h1><a href="index.html">Buku Bahasa Indonesia Kelas 9</a></h1>
+        <div class="breadcrumb">
+            <a href="index.html">Beranda</a>
+            <span>|</span>
+            <a href="index.html#bab">Daftar Bab</a>
+            <span>|</span>
+            <a href="index.html#penulis">Penulis</a>
+        </div>
+    </header>
+
+    <!-- ========== HERO BAB ========== -->
+    <section class="bab-hero">
+        <span class="label">BAB 1</span>
+        <h2>Hakikat Bahasa Indonesia dan Keterampilan Berbahasa</h2>
+        <p>Konsep dasar bahasa Indonesia, fungsi, kedudukan, serta empat keterampilan berbahasa. Memahami esensi berbahasa yang baik dan benar dalam kehidupan sehari-hari.</p>
+        <div class="bab-nav">
+            <a href="index.html">🏠 Beranda</a>
+            <a href="uji-formatif-1.html">📝 Uji Formatif Bab 1</a>
+            <a href="2.html">Bab Selanjutnya →</a>
+        </div>
+    </section>
+
+    <!-- ========== KONTEN UTAMA ========== -->
+    <div class="content">
+        <article>
+
+            <!-- A. Pengertian dan Hakikat Bahasa -->
+            <h3>A. Pengertian dan Hakikat Bahasa Indonesia</h3>
+            <p>Bahasa merupakan alat komunikasi utama yang digunakan manusia untuk berinteraksi, menyampaikan pikiran, perasaan, dan gagasan. Secara etimologis, kata "bahasa" berasal dari bahasa Sanskerta <em>bhāṣā</em> yang berarti ucapan atau percakapan. Dalam kehidupan sehari-hari, bahasa berfungsi sebagai sarana untuk menjalin hubungan sosial, menyampaikan informasi, serta melestarikan budaya.</p>
+
+            <p>Bahasa Indonesia adalah bahasa resmi Republik Indonesia dan bahasa persatuan bangsa Indonesia. Bahasa ini berasal dari <strong>Bahasa Melayu Riau</strong> yang kemudian diangkat menjadi bahasa nasional pada Sumpah Pemuda, 28 Oktober 1928. Sejak saat itu, bahasa Indonesia berkembang menjadi bahasa yang modern, dinamis, dan digunakan oleh seluruh lapisan masyarakat Indonesia.</p>
+
+            <div class="definisi">
+                <strong>Bahasa Indonesia</strong> adalah bahasa resmi Negara Kesatuan Republik Indonesia dan bahasa persatuan bangsa Indonesia yang berfungsi sebagai alat komunikasi nasional, sarana pengembangan ilmu pengetahuan dan teknologi, serta sarana pengembangan kebudayaan.
+            </div>
+
+            <h4>Definisi Bahasa Menurut Para Ahli:</h4>
+            <ul>
+                <li><strong>Kridalaksana (2001):</strong> Bahasa adalah sistem lambang bunyi yang disepakati untuk dipergunakan oleh anggota golongan masyarakat tertentu dalam bekerja sama, berkomunikasi, dan mengembangkan pikiran.</li>
+                <li><strong>Chaer (2009):</strong> Bahasa adalah sistem lambang bunyi yang arbitrer, digunakan oleh sekelompok anggota masyarakat untuk bekerja sama, berkomunikasi, dan mengidentifikasi diri.</li>
+                <li><strong>KBBI:</strong> Bahasa adalah sistem lambang bunyi yang arbitrer yang digunakan oleh semua orang atau sekelompok orang untuk bekerja sama, berkomunikasi, dan mengembangkan pikiran.</li>
+            </ul>
+
+            <p>Dari berbagai definisi tersebut, dapat disimpulkan bahwa bahasa memiliki ciri-ciri utama, yaitu:</p>
+            <ol>
+                <li><strong>Sistematis</strong> — tersusun menurut aturan tertentu</li>
+                <li><strong>Lambang bunyi</strong> — berupa bunyi yang dihasilkan alat ucap manusia</li>
+                <li><strong>Arbitrer</strong> — tidak ada hubungan wajib antara lambang dan makna</li>
+                <li><strong>Konvensional</strong> — disepakati oleh pemakai bahasa</li>
+                <li><strong>Produktif</strong> — dapat menghasilkan ujaran baru yang tak terbatas</li>
+                <li><strong>Dinamis</strong> — selalu berubah mengikuti perkembangan zaman</li>
+            </ol>
+
+            <!-- B. Fungsi Bahasa Indonesia -->
+            <h3>B. Fungsi Bahasa Indonesia</h3>
+            <p>Bahasa Indonesia memiliki fungsi yang sangat luas, baik dalam kehidupan pribadi, sosial, maupun kenegaraan. Fungsi-fungsi tersebut dapat dikelompokkan menjadi dua, yaitu fungsi umum dan fungsi khusus.</p>
+
+            <h4>1. Fungsi Umum Bahasa</h4>
+            <ul>
+                <li><strong>Alat untuk berkomunikasi</strong> — menyampaikan pesan, gagasan, dan perasaan kepada orang lain.</li>
+                <li><strong>Alat untuk berekspresi</strong> — mengungkapkan perasaan, pikiran, dan ide secara kreatif.</li>
+                <li><strong>Alat untuk berintegrasi dan beradaptasi sosial</strong> — membaur dan menyesuaikan diri dengan lingkungan masyarakat.</li>
+                <li><strong>Alat untuk kontrol sosial</strong> — mempengaruhi sikap dan perilaku orang lain.</li>
+            </ul>
+
+            <h4>2. Fungsi Khusus Bahasa Indonesia</h4>
+            <ul>
+                <li><strong>Lambang kebanggaan nasional</strong> — mencerminkan nilai-nilai sosial budaya bangsa.</li>
+                <li><strong>Lambang identitas nasional</strong> — ciri khas bangsa Indonesia di tengah pergaulan dunia.</li>
+                <li><strong>Alat perhubungan antarbudaya dan antardaerah</strong> — menjembatani perbedaan suku, budaya, dan bahasa daerah.</li>
+                <li><strong>Alat yang memungkinkan penyatuan berbagai-bagai masyarakat dengan latar belakang sosial budaya dan bahasanya masing-masing</strong>.</li>
+            </ul>
+
+            <div class="info-box">
+                <h4>💡 Tahukah Kamu?</h4>
+                <p>Bahasa Indonesia merupakan salah satu bahasa yang paling cepat berkembang di dunia. Saat ini, lebih dari 270 juta jiwa menggunakan bahasa Indonesia, baik sebagai bahasa pertama maupun bahasa kedua. Bahasa ini juga dipelajari di berbagai universitas di luar negeri, seperti di Australia, Amerika Serikat, Jepang, dan beberapa negara Eropa.</p>
+            </div>
+
+            <!-- C. Kedudukan Bahasa Indonesia -->
+            <h3>C. Kedudukan Bahasa Indonesia</h3>
+            <p>Bahasa Indonesia memiliki kedudukan yang sangat strategis, baik sebagai bahasa nasional maupun sebagai bahasa negara. Kedua kedudukan ini diatur secara resmi dalam berbagai peraturan perundang-undangan.</p>
+
+            <h4>1. Bahasa Indonesia sebagai Bahasa Nasional</h4>
+            <p>Kedudukan ini didasarkan pada <strong>Sumpah Pemuda 28 Oktober 1928</strong>, yang salah satu butirnya menyatakan: <em>"Kami putra dan putri Indonesia menjunjung bahasa persatuan, bahasa Indonesia."</em> Sebagai bahasa nasional, bahasa Indonesia berfungsi sebagai:</p>
+            <ul>
+                <li>Lambang kebanggaan nasional</li>
+                <li>Lambang identitas nasional</li>
+                <li>Alat perhubungan antarwarga, antardaerah, dan antarbudaya</li>
+                <li>Alat yang memungkinkan penyatuan berbagai masyarakat dengan latar belakang berbeda</li>
+            </ul>
+
+            <h4>2. Bahasa Indonesia sebagai Bahasa Negara</h4>
+            <p>Kedudukan ini didasarkan pada <strong>UUD 1945 Bab XV, Pasal 36</strong> yang menyatakan: <em>"Bahasa negara ialah Bahasa Indonesia."</em> Sebagai bahasa negara, bahasa Indonesia berfungsi sebagai:</p>
+            <ul>
+                <li>Bahasa resmi kenegaraan</li>
+                <li>Bahasa pengantar dalam dunia pendidikan</li>
+                <li>Alat perhubungan pada tingkat nasional untuk kepentingan perencanaan dan pelaksanaan pembangunan serta pemerintahan</li>
+                <li>Alat pengembangan kebudayaan, ilmu pengetahuan, dan teknologi</li>
+            </ul>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Aspek</th>
+                        <th>Bahasa Nasional</th>
+                        <th>Bahasa Negara</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Dasar</strong></td>
+                        <td>Sumpah Pemuda 1928</td>
+                        <td>UUD 1945 Pasal 36</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sifat</strong></td>
+                        <td>Simbolis dan kultural</td>
+                        <td>Formal dan administratif</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lingkup</strong></td>
+                        <td>Masyarakat luas</td>
+                        <td>Pemerintahan & pendidikan</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Fungsi Utama</strong></td>
+                        <td>Persatuan bangsa</td>
+                        <td>Kegiatan resmi negara</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- D. Keterampilan Berbahasa -->
+            <h3>D. Keterampilan Berbahasa</h3>
+            <p>Dalam penggunaan bahasa, terdapat empat keterampilan berbahasa yang saling berkaitan dan harus dikuasai secara terpadu. Keempat keterampilan tersebut adalah <strong>menyimak, berbicara, membaca, dan menulis</strong>.</p>
+
+            <h4>1. Menyimak</h4>
+            <p>Menyimak adalah proses mendengarkan lambang-lambang lisan dengan penuh perhatian, pemahaman, apresiasi, serta interpretasi untuk memperoleh informasi, menangkap isi atau pesan, serta memahami makna komunikasi yang telah disampaikan oleh pembicara. Menyimak merupakan keterampilan berbahasa <em>reseptif-lisan</em>.</p>
+
+            <h4>2. Berbicara</h4>
+            <p>Berbicara adalah kemampuan mengucapkan bunyi-bunyi artikulasi atau kata-kata untuk mengekspresikan, menyatakan, serta menyampaikan pikiran, gagasan, dan perasaan. Berbicara merupakan keterampilan berbahasa <em>produktif-lisan</em>.</p>
+
+            <h4>3. Membaca</h4>
+            <p>Membaca adalah proses yang dilakukan serta dipergunakan oleh pembaca untuk memperoleh pesan yang hendak disampaikan oleh penulis melalui media kata-kata/bahasa tulis. Membaca merupakan keterampilan berbahasa <em>reseptif-tulisan</em>.</p>
+
+            <h4>4. Menulis</h4>
+            <p>Menulis adalah kegiatan menuangkan ide, gagasan, atau perasaan ke dalam bentuk tulisan sehingga orang lain dapat memahami isi pesan yang disampaikan. Menulis merupakan keterampilan berbahasa <em>produktif-tulisan</em>.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Keterampilan</th>
+                        <th>Jenis</th>
+                        <th>Saluran</th>
+                        <th>Fungsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Menyimak</td>
+                        <td>Reseptif</td>
+                        <td>Lisan (telinga)</td>
+                        <td>Menerima pesan</td>
+                    </tr>
+                    <tr>
+                        <td>Berbicara</td>
+                        <td>Produktif</td>
+                        <td>Lisan (mulut)</td>
+                        <td>Mengirim pesan</td>
+                    </tr>
+                    <tr>
+                        <td>Membaca</td>
+                        <td>Reseptif</td>
+                        <td>Tulisan (mata)</td>
+                        <td>Menerima pesan</td>
+                    </tr>
+                    <tr>
+                        <td>Menulis</td>
+                        <td>Produktif</td>
+                        <td>Tulisan (tangan)</td>
+                        <td>Mengirim pesan</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="info-box">
+                <h4>🔗 Hubungan Keempat Keterampilan</h4>
+                <p>Keempat keterampilan berbahasa tersebut saling berkaitan erat. Seseorang yang banyak menyimak dan membaca biasanya akan memiliki kemampuan berbicara dan menulis yang baik. Sebaliknya, kemampuan berbicara dan menulis yang baik juga akan meningkatkan kemampuan menyimak dan membaca. Oleh karena itu, pembelajaran bahasa Indonesia yang efektif harus mengintegrasikan keempat keterampilan ini secara terpadu.</p>
+            </div>
+
+            <!-- E. Ragam Bahasa Indonesia -->
+            <h3>E. Ragam Bahasa Indonesia</h3>
+            <p>Bahasa Indonesia memiliki berbagai ragam yang digunakan sesuai dengan konteks, situasi, dan tujuan komunikasi. Ragam bahasa dapat dibedakan berdasarkan beberapa aspek:</p>
+
+            <h4>1. Berdasarkan Cara Pemakaian</h4>
+            <ul>
+                <li><strong>Ragam bahasa lisan</strong> — diucapkan melalui alat ucap, misalnya: percakapan, pidato, diskusi.</li>
+                <li><strong>Ragam bahasa tulisan</strong> — dituliskan dengan huruf, misalnya: surat, artikel, karya ilmiah.</li>
+            </ul>
+
+            <h4>2. Berdasarkan Situasi</h4>
+            <ul>
+                <li><strong>Ragam formal (baku)</strong> — digunakan dalam situasi resmi, seperti rapat dinas, surat-menyurat resmi, dan pembelajaran di kelas.</li>
+                <li><strong>Ragam nonformal (tidak baku)</strong> — digunakan dalam situasi santai, seperti percakapan dengan teman atau keluarga.</li>
+            </ul>
+
+            <h4>3. Berdasarkan Topik Pembicaraan</h4>
+            <ul>
+                <li>Ragam bahasa bisnis</li>
+                <li>Ragam bahasa hukum</li>
+                <li>Ragam bahasa akademik</li>
+                <li>Ragam bahasa jurnalistik</li>
+                <li>Ragam bahasa sastra</li>
+            </ul>
+
+            <p>Sebagai siswa MTs kelas 9, kamu harus mampu membedakan dan menggunakan ragam bahasa yang tepat sesuai dengan situasi. Misalnya, menggunakan bahasa baku saat menulis surat resmi, dan menggunakan bahasa santai saat bercakap dengan teman sebaya.</p>
+
+            <!-- F. Sejarah Singkat Bahasa Indonesia -->
+            <h3>F. Sejarah Singkat Bahasa Indonesia</h3>
+            <p>Perjalanan bahasa Indonesia menjadi bahasa resmi negara tidak terlepas dari sejarah perjuangan bangsa. Berikut adalah tonggak-tonggak penting dalam sejarah bahasa Indonesia:</p>
+
+            <ul>
+                <li><strong>1901:</strong> Ejaan Van Ophuijsen — ejaan resmi pertama untuk bahasa Melayu yang disusun oleh Ch. A. van Ophuijsen.</li>
+                <li><strong>28 Oktober 1928:</strong> Sumpah Pemuda — para pemuda Indonesia mengikrarkan bahasa Indonesia sebagai bahasa persatuan.</li>
+                <li><strong>1942:</strong> Pemerintah Jepang melarang penggunaan bahasa Belanda dan mewajibkan penggunaan bahasa Indonesia di sekolah-sekolah.</li>
+                <li><strong>18 Agustus 1945:</strong> UUD 1945 disahkan, yang dalam Pasal 36 menetapkan bahasa Indonesia sebagai bahasa negara.</li>
+                <li><strong>1947:</strong> Ejaan Soewandi (Ejaan Republik) menggantikan ejaan Van Ophuijsen.</li>
+                <li><strong>1972:</strong> Ejaan Yang Disempurnakan (EYD) mulai berlaku, hasil kesepakatan Indonesia dan Malaysia.</li>
+                <li><strong>2015:</strong> Ejaan Bahasa Indonesia (EBI) menggantikan EYD.</li>
+                <li><strong>2022:</strong> Ejaan Bahasa Indonesia yang Disempurnakan (EYD V) menjadi acuan terbaru.</li>
+            </ul>
+
+            <div class="definisi">
+                <strong>Sumpah Pemuda 28 Oktober 1928</strong> merupakan peristiwa bersejarah yang menjadi tonggak utama lahirnya bahasa Indonesia sebagai bahasa persatuan. Ikrar ketiga Sumpah Pemuda berbunyi: <em>"Kami putra dan putri Indonesia menjunjung bahasa persatuan, bahasa Indonesia."</em>
+            </div>
+
+            <!-- G. Relevansi Bahasa Indonesia bagi Siswa MTs -->
+            <h3>G. Relevansi Bahasa Indonesia bagi Siswa MTs</h3>
+            <p>Sebagai siswa Madrasah Tsanawiyah (MTs), penguasaan bahasa Indonesia memiliki nilai yang sangat penting, baik untuk kepentingan akademik maupun kehidupan sehari-hari. Berikut beberapa alasan mengapa bahasa Indonesia sangat relevan bagi siswa MTs:</p>
+
+            <ol>
+                <li><strong>Dasar untuk mempelajari ilmu lain</strong> — hampir seluruh mata pelajaran menggunakan bahasa Indonesia sebagai bahasa pengantar.</li>
+                <li><strong>Sarana memahami nilai-nilai keislaman</strong> — banyak kitab, buku, dan literatur keislaman yang diterjemahkan ke dalam bahasa Indonesia.</li>
+                <li><strong>Alat komunikasi dalam masyarakat</strong> — bahasa Indonesia menjadi sarana interaksi dengan masyarakat luas di berbagai daerah.</li>
+                <li><strong>Persiapan jenjang pendidikan lebih tinggi</strong> — kemampuan berbahasa Indonesia yang baik menjadi modal penting untuk melanjutkan ke SMA/MA/SMK dan perguruan tinggi.</li>
+                <li><strong>Penunjang literasi dan berpikir kritis</strong> — kemampuan membaca dan menulis yang baik akan meningkatkan daya nalar siswa.</li>
+                <li><strong>Melestarikan budaya bangsa</strong> — dengan menguasai bahasa Indonesia, siswa turut melestarikan identitas dan kebudayaan nasional.</li>
+            </ol>
+
+            <p>Dalam konteks pendidikan Islam, bahasa Indonesia juga berperan penting dalam dakwah dan penyebaran ilmu agama. Banyak ulama dan cendekiawan Muslim Indonesia, seperti Buya Hamka, Quraish Shihab, dan Nurcholish Madjid, menggunakan bahasa Indonesia sebagai sarana utama dalam menyampaikan pemikiran dan ajaran Islam kepada masyarakat luas.</p>
+
+            <!-- Poin Penting -->
+            <div class="poin-penting">
+                <h4>📌 Poin Penting untuk Ujian</h4>
+                <ul>
+                    <li>Pahami pengertian bahasa Indonesia menurut para ahli dan ciri-ciri bahasa.</li>
+                    <li>Hafalkan fungsi umum dan fungsi khusus bahasa Indonesia.</li>
+                    <li>Kuasai perbedaan kedudukan bahasa Indonesia sebagai bahasa nasional dan bahasa negara.</li>
+                    <li>Pahami empat keterampilan berbahasa: menyimak, berbicara, membaca, dan menulis.</li>
+                    <li>Mampu membedakan ragam bahasa lisan dan tulisan, formal dan nonformal.</li>
+                    <li>Ingatlah tonggak sejarah penting: Sumpah Pemuda 1928 dan UUD 1945 Pasal 36.</li>
+                    <li>Siapkan contoh konkret penggunaan bahasa Indonesia dalam kehidupan sehari-hari di madrasah.</li>
+                </ul>
+            </div>
+
+            <!-- Navigasi Bawah -->
+            <div class="bottom-nav">
+                <a href="index.html">🏠 Kembali ke Beranda</a>
+                <a href="uji-formatif-1.html" class="primary">✍️ Uji Formatif Bab 1</a>
+                <a href="2.html">Bab Selanjutnya →</a>
+            </div>
+
+        </article>
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h4>Buku Bahasa Indonesia Kelas 9</h4>
+                <p>Buku ajar untuk siswa MTs kelas 9. Teori, praktik, dan aplikasi berbahasa Indonesia secara terpadu.</p>
+            </div>
+            <div>
+                <h4>Navigasi</h4>
+                <a href="index.html">Beranda</a>
+                <a href="index.html#tentang">Tentang Buku</a>
+                <a href="index.html#bab">Daftar Bab</a>
+                <a href="index.html#penulis">Penulis</a>
+            </div>
+            <div>
+                <h4>Buku</h4>
+                <p>Edisi 2026</p>
+                <p>MTsS Halaban Anda</p>
+            </div>
+            <div>
+                <h4>Kontak</h4>
+                <a href="mailto:mtshalaban313@gmail.com">mtshalaban313@gmail.com</a>
+                <p>MTsS Halaban Anda</p>
+                <p>Murniati, S.Pd</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Murniati, S.Pd — MTsS Halaban Anda. Hak cipta dilindungi.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
